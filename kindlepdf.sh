@@ -17,7 +17,7 @@ capture_png () {
 	rm $fname.tmp
 }
 
-rm *.png
+rm -f *.png
 
 capture_png 00000.png
 hash0=`md5sum 00000.png|awk '{print $1}'`
@@ -55,7 +55,7 @@ prevhash=$hash1
 prevfname="00001.png"
 failcount=0
 
-for i in $(seq -f "%05g" 2 5)
+for i in $(seq -f "%05g" 2 99999)
 do
 	while true; do
 		fname=$i.png
