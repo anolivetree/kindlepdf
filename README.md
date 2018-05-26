@@ -1,6 +1,6 @@
 # kindlepdf
 
-Takes screenshots and combine them into a PDF.
+Takes screenshots of ebook on Android, and combine them into a PDF.
 
 Tested on Linux Mint Sarah(=Ubuntu 16.04).
 
